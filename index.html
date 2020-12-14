@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="autotest">Run test</button>
+    <div id="main-window"></div>
+    <script src="logic.js"></script>
+    <script src="ui.js"></script>
+    <script src="autotest.js"></script>
+    <script>
+        const test = document.getElementById("autotest");
+        test.addEventListener("click", automationTest);
+    </script>
+</body>
+</html>
